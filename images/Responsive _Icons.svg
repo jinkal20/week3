@@ -6,6 +6,14 @@
 	.st0{fill:#FFFFFF;stroke:#CCCCCC;stroke-width:8;stroke-miterlimit:10;}
 	.st1{display:none;fill:#FFFFFF;stroke:#CCCCCC;stroke-width:8;stroke-miterlimit:10;}
 	.st2{fill:none;stroke:#CCCCCC;stroke-width:8;stroke-miterlimit:10;}
+	#details{
+	diplay :block;
+	}
+	@media screen and (max-width: 150 px){
+		#details{
+			display: block;
+		}
+	}
 </style>
 <g id="magnigfier">
 	<circle id="outercircle" class="st0" cx="180" cy="180" r="108"/>
